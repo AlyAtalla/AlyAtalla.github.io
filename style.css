@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  width: 100%;
+  height: 47px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-links {
+  display: none;
+}
+
+.menu-btn {
+  padding-right: 40px;
+}
