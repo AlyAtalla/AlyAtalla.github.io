@@ -23,7 +23,7 @@
 }
 
 .menu-button {
-  padding-right: 40px;
+  padding-right: 41px;
 }
 
 .main {
@@ -47,24 +47,24 @@
 }
 
 .main-text {
-  margin-top: 5.51rem;
+  margin-top: 40px;
   font-family: 'Inter', sans-serif;
-  font-weight: 900;
+  font-weight: 701;
   text-align: center;
   color: #172b4d;
-  font-size: 1.51em;
-  display: inline-block;
+  font-size: 2.51em;
+  display: flex;
   align-items: center;
   padding: 0 34px;
   z-index: 100;
-  flex-wrap: nowrap;
-  white-space: nowrap;
+  flex-direction: column;
 }
+
 
 .colored-text {
   color: #36b37e;
-  font-size: 1.51em;
-  margin-top: 40px;
+  font-size: 31px;
+  margin-top: 5px;
   display: inline-block;
   font-weight: 600;
 }
@@ -72,7 +72,7 @@
 .another-text {
   color: #36b37e;
   font-size: 1.51em;
-  margin-top: 10px;
+  margin-top: 11px;
   display: inline-block;
   font-weight: 600;
 }
@@ -85,11 +85,11 @@
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 32px;
+  font-weight: 401;
+  font-size: 18px;
+  line-height: 24px;
   padding: 0 27px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .social-icons {
@@ -108,4 +108,25 @@ ul {
   font-size: 1.4em;
   text-decoration: none;
   color: #505f79;
+}
+
+.menu-button {
+  padding-right: 40px;
+}
+
+.scroll {
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 40px / 2 + 0.5px);
+  bottom: 4px;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 32px;
+  margin-top: 70px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
