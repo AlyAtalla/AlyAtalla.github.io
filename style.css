@@ -52,7 +52,7 @@
   font-weight: 800;
   text-align: center;
   color: #172b4d;
-  font-size: 1.30em;
+  font-size: 1.40em;
   display: inline-block;
   align-items: center;
   padding: 0 34px;
@@ -63,8 +63,8 @@
 
 .colored-text {
   color: #36b37e;
-  font-size: 1.1em;
-  margin-top: 8px;
+  font-size: 1.10em;
+  margin-top: 20px;
   display: inline-block;
 }
 
@@ -80,6 +80,7 @@
   font-size: 17px;
   line-height: 32px;
   padding: 0 27px;
+  margin-top: 2em;
 }
 
 .social-icons {
