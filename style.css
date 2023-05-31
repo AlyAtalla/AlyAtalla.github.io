@@ -22,10 +22,6 @@
   display: none;
 }
 
-.menu-button {
-  padding-right: 41px;
-}
-
 .main {
   position: relative;
   display: flex;
@@ -59,7 +55,6 @@
   z-index: 100;
   flex-direction: column;
 }
-
 
 .colored-text {
   color: #36b37e;
