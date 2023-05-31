@@ -67,10 +67,9 @@
   margin-top: 40px;
   display: inline-block;
   font-weight: 600;
-
 }
 
-.another-text{
+.another-text {
   color: #36b37e;
   font-size: 1.51em;
   margin-top: 10px;
@@ -79,7 +78,7 @@
 }
 
 .long-text {
-  color: #42526e;
+  color:#172B4D;
   display: flex;
   align-items: center;
   justify-content: center;
