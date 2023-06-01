@@ -164,6 +164,8 @@ ul {
   justify-content: flex-end;
   align-items: center;
   padding: 4px 2px;
+  display: grid;
+  justify-content: center;
 }
 
 .card {
@@ -324,6 +326,11 @@ ul {
   padding: 16px;
   width: 280px;
   margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-img img {
