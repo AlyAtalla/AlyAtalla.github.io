@@ -133,7 +133,7 @@ ul {
 }
 
 .menu-button {
-  padding-right: 25px;
+  padding-left: 18em;
 }
 
 .scroll {
@@ -192,6 +192,7 @@ ul {
   margin-top: 30px;
   margin-bottom: 29px;
   padding: 11px;
+  object-fit: cover;
 }
 
 .card:hover {
@@ -205,19 +206,20 @@ ul {
   align-items: center;
   font-family: 'Inter', sans-serif;
   font-weight: 801;
-  font-size: 22px;
+  font-size: 19px;
   color: #3a4a42;
   margin-top: 19px;
+  width: 100%;
 }
 
 .card-img {
-  width: 100%;
   display: flex;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   flex: 1.1;
   background: #ebf0ee;
   height: 199px;
+  width: 21px;
 }
 
 .main-works {
@@ -281,7 +283,8 @@ ul {
   color: white;
   text-decoration: none;
   border-radius: 4px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 400;
   transition: background-color 0.3s ease;
   margin-top: 30px;
   margin-left: auto;
@@ -309,9 +312,18 @@ ul {
   height: 45px;
 }
 
-.main-text.contact-text h1 {
-  font-size: 30px;
+.main-text.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.main-text.contact-text h1 {
+  font-size: 35px;
+  text-align: center;
+  margin: 0 20px;
+}
+
 
 .about-card {
   background-color: #ebf0ee;
@@ -516,3 +528,8 @@ input::placeholder {
   cursor: pointer;
   font-size: 1.2em;
 }
+
+.menu-toggle {
+  display: none;
+}
+
