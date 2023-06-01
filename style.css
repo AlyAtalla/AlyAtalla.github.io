@@ -180,7 +180,8 @@ ul {
   margin-bottom: 29px;
   padding: 11px;
   object-fit: cover;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card:hover {
@@ -266,7 +267,6 @@ ul {
   content: '';
   flex-grow: 1;
 }
-
 
 .see-project-btn {
   display: inline-block;
@@ -524,7 +524,7 @@ input::placeholder {
   display: none;
 }
 
-.about-card-content h3{
+.about-card-content h3 {
   display: flex;
   align-items: center;
   justify-content: center;
