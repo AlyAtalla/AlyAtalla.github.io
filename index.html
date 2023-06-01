@@ -1,47 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/1e7e3fccee.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap" rel="stylesheet">
   <title>Aly Atalla</title>
 </head>
+
 <body>
   <header>
     <nav class="nav">
-        <div class="menu-button">
-            <i class="fa-solid fa-bars fa-xl"></i>
-        </div>
-        <ul class="header-links">
-            <li class="header-links" href="#works">Experience</li>
-            <li class="header-links" href="#about">About</li>
-            <li class="header-links" href="#contact">Contact</li>
-        </ul>
+      <div class="menu-button">
+        <i class="fa-solid fa-bars fa-xl"></i>
+      </div>
+      <ul class="header-links">
+        <li class="header-link" href="#works">Experience</li>
+        <li class="header-link" href="#about">About</li>
+        <li class="header-link" href="#contact">Contact</li>
+      </ul>
     </nav>
-</header>
-<section class="main">
-  <div class="background-main absolute"></div>
-  <div class="main-text">
-    <span>Hey there.</span>
-    <span>I'm Aly.</span>
+  </header>
+  <section class="main">
+    <div class="background-main absolute"></div>
+    <div class="main-text">
+      <span>Hey there.</span>
+      <span>I'm Aly.</span>
       <h2 class="colored-text"><span>I'm a software </span>
-        <span>Developer</span></h2>
-  </div>
-  <div class="long-text">
-      <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-          don’t hesitate to contact me.</p>
-  </div>
-  <ul class="social-icons">
-    <li><a rel="noopener noreferrer" href="mailto:alyatalla93@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
-    <li><a rel="noopener noreferrer" href="https://github.com/AlyAtalla" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-    <li><a rel="noopener noreferrer" href="https://twitter.com/aliatalla93" target="_blank"><i class="fa-brands fa-square-twitter"></i></a></li>
-    <li><a rel="noopener noreferrer" href="https://www.linkedin.com/in/aly-atalla-8b83a0231/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-</ul>
-<a class="scroll" href="#works">
-    <i class="fa-solid fa-chevron-down"></i>
-</a>
+        <span>Developer</span>
+      </h2>
+    </div>
+    <div class="long-text">
+      <p> I can help you build a product , feature or website Look through some of my work and experience! If you like
+        what you see and have a project you need coded,
+        don’t hesitate to contact me.</p>
+    </div>
+    <ul class="social-icons">
+      <li><a rel="noopener noreferrer" href="mailto:alyatalla93@gmail.com" target="_blank"><i
+            class="fa-solid fa-envelope"></i></a></li>
+      <li><a rel="noopener noreferrer" href="https://github.com/AlyAtalla" target="_blank"><i
+            class="fa-brands fa-github"></i></a></li>
+      <li><a rel="noopener noreferrer" href="https://twitter.com/aliatalla93" target="_blank"><i
+            class="fa-brands fa-square-twitter"></i></a></li>
+      <li><a rel="noopener noreferrer" href="https://www.linkedin.com/in/aly-atalla-8b83a0231/" target="_blank"><i
+            class="fa-brands fa-linkedin"></i></a></li>
+    </ul>
+    <a class="scroll" href="#works">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+  <section class="works" id="works">
+    <div class="main-works">
+      <span>My Recent</span><span> Works</span>
+      <img src="images/Indicator.png" alt="line Image" class="line-image">
+    </div>
+    <div class="breaker"></div>
+    <div class="cards"></div>
+    <div class="card">
+      <div class="card-img">
+        <img src="images/project1.jpeg" alt="Project Image">
+      </div>
+      <div class="card-body">
+        <span>A website for</span><span> English language school</span>
+        <ul class="language-blocks">
+          <li class="language-block">HTML</li>
+          <li class="language-block">CSS</li>
+          <li class="language-block">JavaScript</li>
+        </ul>
+        <a href="#" class="see-project-btn">See Project</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img">
+        <img src="images/project2.jpeg" alt="Project Image">
+      </div>
+      <div class="card-body">
+        <span>A Personal portfolio </span><span> with html5 canvas</span>
+        <ul class="language-blocks">
+          <li class="language-block">HTML5</li>
+          <li class="language-block">CSS</li>
+          <li class="language-block">JavaScript</li>
+        </ul>
+        <a href="#" class="see-project-btn">See Project</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img">
+        <img src="images/project3.jpeg" alt="Project Image">
+      </div>
+      <div class="card-body">
+        <span>Animation App</span><span> with Canvas And JS</span>
+        <ul class="language-blocks">
+          <li class="language-block">HTML5</li>
+          <li class="language-block">CSS</li>
+          <li class="language-block">JavaScript</li>
+        </ul>
+        <a href="#" class="see-project-btn">See Project</a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div id="about-me"></div>
+
+  <section class="about" id="about">
+    <div class="about-bg"></div>
+    <div class="about-intro">
+      <div class="main-works">
+        <h1>About me</h1>
+      </div>
+      <div class="long-text">
+        <p>
+          I can help you build a product , feature or website Look through
+          some of my work and experience! If you like what you see and have a
+          project you need coded, don't hesitate to contact me.
+        </p>
+      </div>
+      <button class="view-cv">Get my resume</button>
+    </div>
+    <div class="cards">
+      <div class="about-card">
+        <div class="about-img">
+          <img src="images/labguages-icon.svg" />
+        </div>
+        <div class="about-card-content">
+          <h3>Languages</h3>
+          <ul class="about-ul">
+            <li class="about-li">HTML</li>
+            <li class="about-li">CSS</li>
+            <li class="about-li">Javascript</li>
+            <li class="about-li">Ruby</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="about-img">
+          <img src="images/frameworks.png" />
+        </div>
+        <div class="about-card-content">
+          <h3>Frameworks</h3>
+          <ul class="about-ul">
+            <li class="about-li">React.js</li>
+            <li class="about-li">Ruby on Rails</li>
+            <li class="about-li">RSpec</li>
+            <li class="about-li">Capybara</li>
+            <li class="about-li">Selenium</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="about-img">
+          <img src="images/frameworks.png" />
+        </div>
+        <div class="about-card-content">
+          <h3>Skills</h3>
+          <ul class="about-ul">
+            <li class="about-li">Database Management</li>
+            <li class="about-li">Version Control</li>
+            <li class="about-li">CLI</li>
+            <li class="about-li">Web Development</li>
+            <li class="about-li">API Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact-me" id="contact-me">
+    <div class="contact-div">
+      <div class="main-text contact-text">
+        <h1>
+          I'm always interested in hearing about new projects, so if you'd
+          like to chat please get in touch.
+        </h1>
+      </div>
+      <form action="https://formspree.io/f/mbjeworl" method="POST" class="form">
+        <ul class="form-list">
+          <li>
+            <input class="box" type="text" id="name" name="name" placeholder="Full name" maxlength="30" required />
+          </li>
+          <li>
+            <input class="box" type="email" id="mail" name="email" placeholder="Email adress" required />
+          </li>
+          <span class="error-massage"></span>
+          <li>
+            <textarea class="box text-area" id="msg" name="message" placeholder="Hey I'd like to connect to..."
+              maxlength="500" required></textarea>
+          </li>
+        </ul>
+        <div class="button-wrap">
+          <button name="submit" type="submit" class="view-btn">
+            Get in touch
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="long-text mail">
+      <p>aliatalla93@gmail.com</p>
+    </div>
+    <footer class="footer">
+      <ul class="social-icons">
+        <li>
+          <a rel="noopener noreferrer" href="https://youtube.com/@alyatalla" target="_blank"><i
+              class="fa-brands fa-youtube"></i></a>
+        </li>
+        <li>
+          <a rel="noopener noreferrer" href="mailto:aliatalla93@gmail.com" target="_blank"><i
+              class="fa-solid fa-envelope"></i></a>
+        </li>
+        <li>
+          <a rel="noopener noreferrer" href="https://github.com/AlyAtalla" target="_blank"><i
+              class="fa-brands fa-github"></i></a>
+        </li>
+        <li>
+          <a rel="noopener noreferrer" href="https://twitter.com/alyatalla93" target="_blank"><i
+              class="fa-brands fa-square-twitter"></i></a>
+        </li>
+        <li>
+          <a rel="noopener noreferrer" href="https://www.linkedin.com/in/aly-atalla-8b83a0231/" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a>
+        </li>
+      </ul>
+      <div class="breaker-foot"></div>
+    </footer>
   </section>
 </body>
+
 </html>
