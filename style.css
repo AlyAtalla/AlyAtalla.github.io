@@ -324,7 +324,6 @@ ul {
   margin: 0 20px;
 }
 
-
 .about-card {
   background-color: #ebf0ee;
   box-sizing: border-box;
@@ -532,4 +531,3 @@ input::placeholder {
 .menu-toggle {
   display: none;
 }
-
