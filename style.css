@@ -192,9 +192,7 @@ ul {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 10px;
-  /* Add padding here */
 }
-
 
 .card:hover {
   transform: scale(1.1);
@@ -208,7 +206,7 @@ ul {
   font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 22px;
-  color: #3A4A42;
+  color: #3a4a42;
   margin-top: 20px;
 }
 
@@ -225,7 +223,7 @@ ul {
 .main-works {
   margin-top: 2.90rem;
   font-family: 'Inter', sans-serif;
-  font-weight: 700;
+  font-weight: 701;
   text-align: center;
   color: #172b4d;
   font-size: 40px;
@@ -250,8 +248,8 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 20px;
-  background: #EBF0EE;
-  color: #3A4A42;
+  background: #ebf0ee;
+  color: #3a4a42;
 }
 
 .language-block {
@@ -259,14 +257,13 @@ ul {
   border-radius: 4px;
   padding: 4px 8px;
   margin-right: 19px;
-  /* Add margin-right here */
   font-size: 16px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   position: relative;
 }
 
-.language-block:after {
+.language-block::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -434,7 +431,6 @@ input::placeholder {
 
 .button-wrap {
   width: 50%;
-
 }
 
 .view-cv {
@@ -455,25 +451,6 @@ input::placeholder {
   transition: ease 1s;
   margin-top: 30px;
   justify-content: center;
-}
-
-.view-btn:hover {
-  background-color: #008552;
-  color: #fff;
-  cursor: pointer;
-  font-size: 1.2em;
-}
-
-.mail {
-  color: #42526e;
-  margin-top: 57px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
 }
 
 .contact-me {
