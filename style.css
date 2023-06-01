@@ -159,15 +159,11 @@ ul {
 }
 
 .cards {
-  display: grid;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   align-items: center;
-  text-align: center;
   padding: 4px 2px;
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-  min-width: 20em;
 }
 
 .card {
@@ -184,6 +180,7 @@ ul {
   margin-bottom: 29px;
   padding: 11px;
   object-fit: cover;
+  margin: 0 auto;
 }
 
 .card:hover {
@@ -201,6 +198,8 @@ ul {
   color: #3a4a42;
   margin-top: 19px;
   width: 100%;
+  justify-content: center;
+  text-align: center;
 }
 
 .card-img {
@@ -237,34 +236,37 @@ ul {
 
 .language-blocks {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 4px 2px;
   margin-top: 20px;
   background: #ebf0ee;
   color: #3a4a42;
+  justify-content: space-between;
 }
 
 .language-block {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   border-radius: 4px;
   padding: 4px 8px;
-  margin-right: 19px;
+  margin: 0 5px;
   font-size: 16px;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  position: relative;
 }
 
-.language-block::after {
+.language-blocks::before {
   content: '';
-  position: absolute;
-  top: 50%;
-  right: -20px;
-  transform: translateY(-50%);
-  width: 20px;
-  height: 100%;
-  background-color: #fff;
+  flex-grow: 1;
 }
+
+.language-blocks::after {
+  content: '';
+  flex-grow: 1;
+}
+
 
 .see-project-btn {
   display: inline-block;
@@ -321,7 +323,7 @@ ul {
   border-radius: 8px;
   padding: 16px;
   width: 280px;
-  margin: 14px;
+  margin: 25px;
 }
 
 .about-img img {
@@ -520,4 +522,12 @@ input::placeholder {
 
 .menu-toggle {
   display: none;
+}
+
+.about-card-content h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  color: #344563;
 }
