@@ -271,20 +271,15 @@ ul {
   position: absolute;
   top: 50%;
   right: -20px;
-  /* Adjust the right value to control the width of the white space */
   transform: translateY(-50%);
   width: 20px;
-  /* Adjust the width of the white space as needed */
   height: 100%;
   background-color: #fff;
-  /* Set the color of the white space */
 }
-
 
 .see-project-btn {
   display: inline-block;
   padding: 12px 24px;
-  /* Adjust the padding values as needed */
   background-color: #36b37e;
   color: white;
   text-decoration: none;
@@ -296,9 +291,7 @@ ul {
   margin-right: auto;
   margin-bottom: 10px;
   max-width: 320px;
-  /* Adjust the max-width value as needed */
   height: 50px;
-  /* Adjust the height value as needed */
 }
 
 .view.cv {
@@ -321,7 +314,6 @@ ul {
 
 .main-text.contact-text h1 {
   font-size: 30px;
-  /* Adjust the font size as needed */
 }
 
 .about-card {
@@ -392,7 +384,6 @@ ul {
   height: 48px;
   padding: 16px;
   margin-bottom: 24px;
-  /* Adjust the vertical spacing as needed */
 }
 
 input::placeholder {
