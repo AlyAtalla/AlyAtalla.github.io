@@ -158,15 +158,6 @@ ul {
   transition: ease-in-out 0.3s;
 }
 
-.breaker {
-  background-color: #36b37e;
-  display: flex;
-  margin: 10px 163.5px;
-  height: 4px;
-  margin-bottom: 70px;
-  border: 1px solid #d0d9d5;
-}
-
 .cards {
   display: grid;
   flex-direction: column;
@@ -232,7 +223,6 @@ ul {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 0 34px;
   z-index: 100;
 }
 
