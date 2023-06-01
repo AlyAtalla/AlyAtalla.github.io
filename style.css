@@ -181,17 +181,17 @@ ul {
 
 .card {
   background-color: #fff;
-  width: 20em;
+  width: 21em;
   display: flex;
   border: 1px solid #8f8f8f;
-  border-radius: 10px;
+  border-radius: 11px;
   height: 474px;
   transition: ease 1s;
   flex-direction: column;
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 10px;
+  margin-bottom: 29px;
+  padding: 11px;
 }
 
 .card:hover {
@@ -204,10 +204,10 @@ ul {
   background: white;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  font-weight: 800;
+  font-weight: 801;
   font-size: 22px;
   color: #3a4a42;
-  margin-top: 20px;
+  margin-top: 19px;
 }
 
 .card-img {
@@ -217,16 +217,16 @@ ul {
   border-top-right-radius: 8px;
   flex: 1.1;
   background: #ebf0ee;
-  height: 200px;
+  height: 199px;
 }
 
 .main-works {
-  margin-top: 2.90rem;
+  margin-top: 2.89rem;
   font-family: 'Inter', sans-serif;
   font-weight: 701;
   text-align: center;
   color: #172b4d;
-  font-size: 40px;
+  font-size: 41px;
   display: flex;
   align-items: center;
   flex-direction: column;
