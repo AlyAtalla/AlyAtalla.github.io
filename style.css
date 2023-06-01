@@ -159,13 +159,11 @@ ul {
 }
 
 .cards {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   padding: 4px 2px;
   display: grid;
-  justify-content: center;
 }
 
 .card {
