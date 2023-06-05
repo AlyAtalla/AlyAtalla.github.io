@@ -247,9 +247,9 @@ ul {
 }
 
 .language-block {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  position: relative;
+  left: 2px;
+  right: 2px;
   border-radius: 4px;
   padding: 4px 8px;
   margin: 0 5px;
