@@ -163,7 +163,7 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 4px 2px;
-  display: grid;
+  position: relative;
 }
 
 .card {
