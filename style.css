@@ -426,11 +426,11 @@ input::placeholder {
   margin: 10px 113px;
   margin-top: 29px;
 }
+
 .contact-bg {
   position: absolute;
   display: grid;
-  background-image:
-    url("images/Frame.png");
+  background-image: url("images/Frame.png");
   background-position: 0 0%, 100% 0;
   background-repeat: no-repeat;
   width: 100%;
