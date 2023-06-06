@@ -291,10 +291,6 @@ ul {
   cursor: pointer;
   font-size: 0.9em;
   transition: background-color 1.2s ease, font-size 1.2s ease;
-  transform: scale(0.1);
-}
-
-.see-project-btn:hover {
   transform: scale(1.1);
 }
 
