@@ -5,6 +5,7 @@ html {
 }
 
 html,
+
 body {
   height: 100%;
   margin: 0;
@@ -430,7 +431,7 @@ input::placeholder {
   height: 2px;
   border: 1px solid #d0d9d5;
   border-radius: 8px;
-  padding: 2.3px 0;
+  padding: 2.3px;
   margin: 0px 100px;
   margin-top: 29px;
   margin-bottom: 0;
@@ -649,7 +650,8 @@ input::placeholder {
   .about-bg {
     position: absolute;
     display: grid;
-    background-image: url("images/illustration-about-me-2-desktop.png"),
+    background-image:
+      url("images/illustration-about-me-2-desktop.png"),
       url("images/illustration\ about\ me\ desktop.png");
     background-position: 0 22%, 100% 0;
     background-repeat: no-repeat;
