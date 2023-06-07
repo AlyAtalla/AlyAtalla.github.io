@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Playfair+Display&display=swap');
 
-html,
-
 body {
   height: 100%;
   margin: 0;
@@ -430,7 +428,7 @@ input::placeholder {
   padding: 2.3px;
   margin: 0px 100px;
   margin-top: 29px;
-  margin-bottom: 0;
+  margin-bottom: 1px;
 }
 
 .contact-bg {
