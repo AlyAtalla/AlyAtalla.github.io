@@ -56,51 +56,56 @@
   </section>
   <section class="works" id="works">
     <div class="main-works">
-      <span>My Recent</span><span> Works</span>
+      <div class="works-text">
+        <span>My Recent</span><span> Works</span>
+      </div>
       <img src="images/Indicator.png" alt="line Image" class="line-image">
+
     </div>
     <div class="breaker"></div>
-    <div class="cards"></div>
-    <div class="card">
-      <div class="card-img">
-        <img src="images/project1.jpeg" alt="Project Image">
+    <div class="cards">
+      <div class="card">
+        <div class="card-img">
+          <img src="images/project1.jpeg" alt="Project Image">
+        </div>
+        <div class="card-body">
+          <span>A website for</span><span> English language school</span>
+          <ul class="language-blocks">
+            <li class="language-block">HTML</li>
+            <li class="language-block">CSS</li>
+            <li class="language-block">JavaScript</li>
+          </ul>
+          <a href="https://theenglishclub.s3.us-west-2.amazonaws.com/index.html" class="see-project-btn">See Project</a>
+        </div>
       </div>
-      <div class="card-body">
-        <span>A website for</span><span> English language school</span>
-        <ul class="language-blocks">
-          <li class="language-block">HTML</li>
-          <li class="language-block">CSS</li>
-          <li class="language-block">JavaScript</li>
-        </ul>
-        <a href="https://theenglishclub.s3.us-west-2.amazonaws.com/index.html" class="see-project-btn">See Project</a>
+      <div class="card">
+        <div class="card-img">
+          <img src="images/project2.jpeg" alt="Project Image">
+        </div>
+        <div class="card-body">
+          <span>A Personal portfolio </span><span> with html5 canvas</span>
+          <ul class="language-blocks">
+            <li class="language-block">HTML5</li>
+            <li class="language-block">CSS</li>
+            <li class="language-block">JavaScript</li>
+          </ul>
+          <a href="https://github.com/AlyAtalla/Vita" class="see-project-btn">See Project</a>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="card-img">
-        <img src="images/project2.jpeg" alt="Project Image">
-      </div>
-      <div class="card-body">
-        <span>A Personal portfolio </span><span> with html5 canvas</span>
-        <ul class="language-blocks">
-          <li class="language-block">HTML5</li>
-          <li class="language-block">CSS</li>
-          <li class="language-block">JavaScript</li>
-        </ul>
-        <a href="https://github.com/AlyAtalla/Vita" class="see-project-btn">See Project</a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-img">
-        <img src="images/project3.jpeg" alt="Project Image">
-      </div>
-      <div class="card-body">
-        <span>Animation App</span><span> with Canvas And JS</span>
-        <ul class="language-blocks">
-          <li class="language-block">HTML5</li>
-          <li class="language-block">CSS</li>
-          <li class="language-block">JavaScript</li>
-        </ul>
-        <a href="https://alyatallawebsite.s3.us-west-2.amazonaws.com/index.html" class="see-project-btn">See Project</a>
+      <div class="card">
+        <div class="card-img">
+          <img src="images/project3.jpeg" alt="Project Image">
+        </div>
+        <div class="card-body">
+          <span>Animation App</span><span> with Canvas And JS</span>
+          <ul class="language-blocks">
+            <li class="language-block">HTML5</li>
+            <li class="language-block">CSS</li>
+            <li class="language-block">JavaScript</li>
+          </ul>
+          <a href="https://alyatallawebsite.s3.us-west-2.amazonaws.com/index.html" class="see-project-btn">See
+            Project</a>
+        </div>
       </div>
     </div>
   </section>
@@ -112,7 +117,7 @@
   <section class="about" id="about">
     <div class="about-bg"></div>
     <div class="about-intro">
-      <div class="main-works">
+      <div class="main-text">
         <h1>About me</h1>
       </div>
       <div class="long-text">
@@ -165,50 +170,48 @@
             <li class="about-li">Version Control</li>
             <li class="about-li">CLI</li>
             <li class="about-li">Web Development</li>
-            <li class="about-li">API Design</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
   <section class="contact-me" id="contact-me">
-      <div class="contact-div">
-      <div class="main-text contact-text">
-        <h1>
-          I'm always interested in hearing about new projects, so if you'd
-          like to chat please get in touch.
-        </h1>
-      </div>
-      <form action="https://formspree.io/f/xgebjzgz" method="POST" class="form">
-        <ul class="form-list">
-          <li>
-            <input class="box" type="text" id="name" name="name" placeholder="Full name" maxlength="30" required />
-          </li>
-          <li>
-            <input class="box" type="email" id="mail" name="email" placeholder="Email adress" required />
-          </li>
-          <span class="error-massage"></span>
-          <li>
-            <textarea class="box text-area" id="msg" name="message" placeholder="Hey I'd like to connect to..."
-              maxlength="500" required></textarea>
-          </li>
-        </ul>
-        <div class="button-wrap">
-          <div class="contact-bg"></div>
-          <button name="submit" type="submit" class="view-btn">
-            Get in touch
-          </button>
-        </div>
-      </form>
+    <div class="main-text contact-text">
+      <h1>
+        I'm always interested in hearing about new projects, so if you'd
+        like to chat please get in touch.
+      </h1>
+
     </div>
+    <form action="https://formspree.io/f/xgebjzgz" method="POST" class="form">
+      <ul class="form-list">
+        <li>
+          <input class="box" type="text" id="name" name="name" placeholder="Full name" maxlength="30" required />
+        </li>
+        <li>
+          <input class="box" type="email" id="mail" name="email" placeholder="Email adress" required />
+        </li>
+        <span class="error-massage"></span>
+        <li>
+          <textarea class="box-text-area" id="msg" name="message" placeholder="Hey I'd like to connect to..."
+            maxlength="500" required></textarea>
+        </li>
+      </ul>
+      <div class="button-wrap">
+        
+        <button name="submit" type="submit" class="view-btn">
+          Get in touch
+        </button>
+      </div>
+    </form>
     <div class="long-text mail">
       <p>aliatalla93@gmail.com</p>
     </div>
     <footer class="footer">
       <ul class="social-icons">
         <li>
-          <a rel="noopener noreferrer" href="https://www.youtube.com/@alyatalla/" target="_blank"><i
-              class="fa-solid fa-envelope"></i></a>
+          <a rel="noopener noreferrer" href="https://www.youtube.com/@alyatalla/" target="_blank">
+            <i class="fa-brands fa-youtube"></i></a>
         </li>
         <li>
 
