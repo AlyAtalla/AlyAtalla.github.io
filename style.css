@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Playfair+Display&display=swap');
-
 body {
   height: 100%;
   margin: 0;
@@ -426,7 +425,7 @@ input::placeholder {
   border: 1px solid #d0d9d5;
   border-radius: 8px;
   padding: 2.3px;
-  margin: 0px 100px;
+  margin: 1px 99px;
   margin-top: 29px;
   margin-bottom: 1px;
 }
@@ -618,7 +617,6 @@ input::placeholder {
 
   .line-image {
     margin-left: 95px;
-
   }
 
   .works .works-text {
@@ -629,7 +627,7 @@ input::placeholder {
 
   .cards {
     display: grid;
-    grid-template-columns: repeat(3, 0.20fr);
+    grid-template-columns: repeat(3, 0.21fr);
     padding: 0.1px;
     padding-top: 5em;
     gap: 25px;
