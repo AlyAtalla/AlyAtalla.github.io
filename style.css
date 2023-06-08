@@ -714,8 +714,7 @@ input::placeholder {
   }
 
   .contact-me {
-    background-image:
-      url(images/contactbackground-desktop.svg);
+    background-image: url(images/contactbackground-desktop.svg);
     background-position: -2% 70px;
     background-size: cover;
     background-repeat: no-repeat;
