@@ -449,6 +449,7 @@ input::placeholder {
 .contact-bg3 {
   display: none;
 }
+
 .view-cv {
   color: white;
   padding: 12px;
@@ -553,14 +554,14 @@ input::placeholder {
 }
 
 .box-text-area {
-    width: 400px;
-    box-sizing: border-box;
-    margin: 16px 0;
-    border: 1px solid #d0d9d4;
-    border-radius: 4px;
-    height: 70px;
-    padding: 16px;
-  }
+  width: 400px;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  height: 70px;
+  padding: 16px;
+}
 
 @media (min-width: 768px) {
   .main {
@@ -650,7 +651,7 @@ input::placeholder {
     max-width: 100%;
     margin: 0;
   }
-    
+
   .about {
     background-repeat: no-repeat;
     background-size: contain;
@@ -681,7 +682,6 @@ input::placeholder {
     height: 316px;
     margin-bottom: 0;
   }
-  
 
   .long-text {
     margin-top: 30px;
@@ -719,7 +719,7 @@ input::placeholder {
     align-items: center;
     margin-top: 13rem;
   }
-  
+
   .form {
     width: 100%;
     min-width: 300px;
@@ -757,10 +757,11 @@ input::placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 55rem; 
+    margin-top: 55rem;
     margin-right: 75rem;
 
   }
+
   .social-icons {
     display: flex;
     align-items: center;
