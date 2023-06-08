@@ -772,4 +772,10 @@ input::placeholder {
   .breaker-foot {
     display: none;
   }
+
+  .about-li:hover {
+    background-color: #008552;
+    color: white;
+  }
+  
 }
