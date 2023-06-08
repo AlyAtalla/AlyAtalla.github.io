@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Playfair+Display&display=swap');
 
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -167,6 +161,7 @@ ul {
   align-items: center;
   padding: 4px 2px;
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .card {
@@ -434,7 +429,7 @@ input::placeholder {
 .contact-bg {
   position: absolute;
   display: grid;
-  background-image: url("images/Frame.png");
+  background-image: url("images/contact-me.svg");
   background-position: 0 0%, 100% 0;
   background-repeat: no-repeat;
   width: 100%;
@@ -443,6 +438,17 @@ input::placeholder {
   margin-left: 11em;
 }
 
+.contact-bg1 {
+  display: none;
+}
+
+.contact-bg2 {
+  display: none;
+}
+
+.contact-bg3 {
+  display: none;
+}
 .view-cv {
   color: white;
   padding: 12px;
@@ -546,6 +552,16 @@ input::placeholder {
   color: #344563;
 }
 
+.box-text-area {
+    width: 400px;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 1px solid #d0d9d4;
+    border-radius: 4px;
+    height: 70px;
+    padding: 16px;
+  }
+
 @media (min-width: 768px) {
   .main {
     height: 100vh;
@@ -628,14 +644,14 @@ input::placeholder {
 
   .cards {
     display: grid;
-    grid-template-columns: repeat(3, 0.21fr);
-    padding: 0.1px;
+    grid-template-columns: repeat(3, 1fr);
     padding-top: 5em;
-    gap: 25px;
+    gap: 16px;
+    max-width: 100%;
+    margin: 0;
   }
-
+    
   .about {
-    margin-top: 101px;
     background-repeat: no-repeat;
     background-size: contain;
     margin-bottom: 10px;
@@ -658,16 +674,14 @@ input::placeholder {
     box-sizing: border-box;
     border: 1px solid #c1c7d0;
     border-radius: 8px;
-    padding: 16px;
-    width: 280px;
-    margin: 25px;
+    width: 351px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
     height: 316px;
+    margin-bottom: 0;
   }
+  
 
   .long-text {
     margin-top: 30px;
@@ -680,20 +694,8 @@ input::placeholder {
     flex-wrap: wrap;
   }
 
-  .contact-me {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .contact-bg2 {
-    margin-left: 266px;
-    max-height: 500px;
-    margin-bottom: 39rem;
-  }
-
   .view-btn {
-    margin-right: 39rem;
+    margin-right: 35rem;
     width: 25%;
   }
 
@@ -706,21 +708,32 @@ input::placeholder {
     font-style: normal;
     font-weight: 600;
     line-height: 52px;
-    margin-right: 27rem;
     font-size: 31px;
-    margin-bottom: 49rem;
+    margin-bottom: 0;
+    margin-left: 35rem;
   }
 
+  .contact-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 13rem;
+  }
+  
   .form {
     width: 100%;
     min-width: 300px;
-    margin-bottom: 49rem;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 37rem;
+    margin-right: 20rem;
   }
 
   .box {
     width: 700px;
     box-sizing: border-box;
-    margin: 16px 0;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     height: 60px;
@@ -730,11 +743,9 @@ input::placeholder {
   .box-text-area {
     width: 700px;
     box-sizing: border-box;
-    margin: 16px 0;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     height: 70px;
-    padding: 16px;
   }
 
   .mail {
@@ -742,31 +753,20 @@ input::placeholder {
   }
 
   .footer {
-    margin-top: 1500px;
-    margin-right: 900px;
     border-top: solid 1px #dfe1e6;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+    margin-top: 55rem; 
+    margin-right: 75rem;
 
+  }
   .social-icons {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 200rem;
-  }
-
-  .contact-text {
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 763px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 3px;
-    line-height: 52px;
+    margin-top: 20px;
+    margin-right: 151rem;
   }
 
   .breaker-foot {
