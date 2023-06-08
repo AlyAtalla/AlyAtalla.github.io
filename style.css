@@ -302,7 +302,6 @@ ul {
   flex-direction: column;
   align-items: center;
   margin-top: 5rem;
-
 }
 
 .main-text.contact-text h1 {
@@ -706,7 +705,6 @@ input::placeholder {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 10px;
     line-height: 52px;
     margin-right: 27rem;
     font-size: 31px;
