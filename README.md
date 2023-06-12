@@ -117,7 +117,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, check out my  [Github Profile](https://github.com/AlyAtalla)
+If you like this project, check out my  [Github Profile](https://github.com/AlyAtalla.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
