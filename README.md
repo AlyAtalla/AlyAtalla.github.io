@@ -17,6 +17,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+      - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -62,6 +63,9 @@ Visual Studio Code using HTML,CSS, and javascript Languages
 [Feature4]:The portfolio page provides links to connect with me on various platforms such as GitHub, Twitter, and LinkedIn. This allows visitors to easily reach out to me for collaboration or project opportunities.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://alyatalla.github.io)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -85,7 +89,7 @@ cd [project directory]
 
 npm install
 
-For more details, you can access the online version [here](http://alyatalla.github.io).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
