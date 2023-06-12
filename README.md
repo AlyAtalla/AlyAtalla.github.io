@@ -85,6 +85,8 @@ cd [project directory]
 
 npm install
 
+For more details, you can access the online version [here](http://alyatalla.github.io).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
