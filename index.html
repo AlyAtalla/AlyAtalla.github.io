@@ -10,20 +10,26 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+
   <title>Aly Atalla</title>
 </head>
 
 <body>
   <header>
     <nav class="nav">
-      <div class="menu-button">
-        <i class="fa-solid fa-bars fa-xl"></i>
-      </div>
+      
       <ul class="header-links">
-        <li class="header-link" href="#works">Experience</li>
-        <li class="header-link" href="#about">About</li>
-        <li class="header-link" href="#contact">Contact</li>
+        <li class="header-link"><a href="#works" data-target="#works">Experience</a></li>
+        <li class="header-link"><a href="#about" data-target="#about">About</a></li>
+        <li class="header-link"><a href="#contact-me" data-target="#contact-me">Contact</a></li>
+        
       </ul>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
     </nav>
   </header>
   <section class="main">
