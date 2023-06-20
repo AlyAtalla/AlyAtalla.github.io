@@ -173,6 +173,7 @@ projects.forEach((project) => {
       overlay.style.display = 'none';
     });
   };
+
   const buttonElement = document.createElement('button');
   buttonElement.classList.add('project-button');
   buttonElement.textContent = 'See Project';
@@ -188,5 +189,3 @@ projects.forEach((project) => {
     overlay.style.display = 'block';
   });
 });
-
-
