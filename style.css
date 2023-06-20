@@ -916,12 +916,14 @@ input::placeholder {
     line-height: 52px;
     font-size: 31px;
     margin-bottom: 0;
-    margin-left: 137rem;
+    margin-left: 35rem;
   }
 
   .contact-me {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-top: 13rem;
     justify-content: center;
     position: relative;
   }
@@ -964,7 +966,8 @@ input::placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 85rem;
+    margin-left: 37rem;
+    margin-right: 20rem;
   }
 
   .box {
@@ -997,7 +1000,20 @@ input::placeholder {
     margin-right: 75rem;
   }
 
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 151rem;
+  }
+
   .breaker-foot {
     display: none;
+  }
+
+  .about-li:hover {
+    background-color: #008552;
+    color: white;
   }
 }
