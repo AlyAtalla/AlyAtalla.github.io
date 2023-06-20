@@ -697,6 +697,62 @@ input::placeholder {
 }
 
 @media (min-width: 768px) {
+
+  .modal-container {
+    padding-left: 13px;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+
+  .desktop-image {
+    display: block;
+  }
+
+  .mobile-list {
+    display: none;
+  }
+
+  .desktop-list {
+    display: block;
+  }
+
+  .modal-body ul {
+    width: 510px;
+  }
+
+  .modal-content {
+    position: relative;
+    padding-bottom: 2rem;
+  }
+
+  .modal-body h2 {
+    max-width: 500px;
+  }
+
+  .modal-footer {
+    position: absolute;
+    top: calc(100% - 22rem);
+    right: 1rem;
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 8px;
+    padding: 0;
+  }
+
+  .modal-footer button {
+    font-size: 12px;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
   .main {
     height: 100vh;
     display: flex;

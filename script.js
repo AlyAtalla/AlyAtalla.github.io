@@ -16,10 +16,6 @@ const initApp = () => {
   });
 };
 
-document.addEventListener('DOMContentLoaded', () => {
-  initApp();
-});
-
 const projects = [
   {
     name: "Most-Post Storie's <br/> Gain+Glory",
@@ -42,7 +38,7 @@ const projects = [
   {
     name: "Most-Post Storie's <br/> Gain+Glory",
     description: 'Project 3 description',
-    image: { mobile: './images/portfolio-projects.png.png', desktop: './images/desk-porto.png' },
+    image: { mobile: './images/portfolio-projects.png', desktop: './images/desk-porto.png' },
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     liveLink: 'https://example.com/live2',
     sourceLink: 'https://example.com/source2',
@@ -188,4 +184,8 @@ projects.forEach((project) => {
     modalSection.style.display = 'block';
     overlay.style.display = 'block';
   });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  initApp();
 });
