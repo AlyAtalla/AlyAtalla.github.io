@@ -165,7 +165,6 @@ projects.forEach((project) => {
     });
   };
 
-
   const buttonElement = document.createElement('button');
   buttonElement.classList.add('project-button');
   buttonElement.textContent = 'See Project';
