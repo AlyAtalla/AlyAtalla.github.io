@@ -624,10 +624,9 @@ input::placeholder {
   letter-spacing: 0.03em;
   color: #3a4a42;
   padding: 8px 12px;
-  background: #ebf0ee;;
+  background: #ebf0ee;
   border-radius: 4px;
   list-style: none;
-
 }
 
 .mobile-list {
