@@ -105,11 +105,11 @@ projects.forEach((project) => {
   const displayPopup = (project) => {
     const dynamicSection = document.getElementById('dynamic-section');
     let list = '';
-  
+
     project.technologies.forEach((technology) => {
       list += `<li>${technology}</li>`;
     });
-  
+
     const sectionHTML = `
       <section id='modal-section' class='modal-section'>
         <div class='modal'>
@@ -153,9 +153,9 @@ projects.forEach((project) => {
         <div id='overlay'></div>
       </section>
     `;
-  
+
     dynamicSection.innerHTML = sectionHTML;
-  
+
     const overlay = document.getElementById('overlay');
     const modalSection = document.querySelector('.modal');
     const modalCloseButton = document.querySelector('.modal-close');
@@ -164,7 +164,7 @@ projects.forEach((project) => {
       overlay.style.display = 'none';
     });
   };
-  
+
 
   const buttonElement = document.createElement('button');
   buttonElement.classList.add('project-button');
