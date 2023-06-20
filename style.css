@@ -267,6 +267,7 @@ ul {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
+  font-family: 'Inter',sans-serif;
 }
 
 .language {
@@ -274,6 +275,7 @@ ul {
   height: 32px;
   background: #ebf0ee;
   border-radius: 4px;
+  font-family: 'Inter',sans-serif;
 }
 
 .main-text.contact-text {
@@ -587,6 +589,8 @@ input::placeholder {
   flex-direction: column;
   gap: 32px;
   padding: 10px;
+  font-family: 'Inter',sans-serif;
+  margin-top: 0;
 }
 
 .modal-body h2 {
@@ -636,6 +640,7 @@ input::placeholder {
 
 .desktop-list {
   display: none;
+  margin-bottom: 0;
 }
 
 .modal-body p {
@@ -708,6 +713,7 @@ input::placeholder {
 
   .desktop-image {
     display: block;
+    width: 100%;
   }
 
   .mobile-list {
@@ -716,6 +722,11 @@ input::placeholder {
 
   .desktop-list {
     display: block;
+    margin-bottom: 0;
+  }
+
+  .modal-body {
+    margin-top: 0;
   }
 
   .modal-body ul {
@@ -734,6 +745,7 @@ input::placeholder {
 
   .modal-body p {
     font-family: 'Inter', sans-serif;
+    margin-top: 0;
   }
 
   .modal-footer {

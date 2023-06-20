@@ -19,7 +19,7 @@ const initApp = () => {
 const projects = [
   {
     name: "Most-Post Storie's <br/> Gain+Glory",
-    description: 'Project 1 description',
+    description: '',
     image: { mobile: './images/portfolio-projects.png', desktop: './images/desk-porto.png' },
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     liveLink: 'https://example.com/live1',
@@ -28,7 +28,7 @@ const projects = [
 
   {
     name: "Most-Post Storie's <br/> Gain+Glory",
-    description: 'Project 2 description',
+    description: '',
     image: { mobile: './images/portfolio-projects.png', desktop: './images/desk-porto.png' },
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     liveLink: 'https://example.com/live2',
@@ -37,7 +37,7 @@ const projects = [
 
   {
     name: "Most-Post Storie's <br/> Gain+Glory",
-    description: 'Project 3 description',
+    description: '',
     image: { mobile: './images/portfolio-projects.png', desktop: './images/desk-porto.png' },
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     liveLink: 'https://example.com/live2',
@@ -46,7 +46,7 @@ const projects = [
 
   {
     name: "Most-Post Storie's <br/> Gain+Glory",
-    description: 'Project 4 description',
+    description: '',
     image: { mobile: './images/portfolio-projects.png', desktop: './images/desk-porto.png' },
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     liveLink: 'https://example.com/live2',
@@ -55,7 +55,7 @@ const projects = [
 
   {
     name: "Most-Post Storie's <br/> Gain+Glory",
-    description: 'Project 5 description',
+    description: '',
     image: { mobile: './images/portfolio-projects.png', desktop: './images/desk-porto.png' },
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     liveLink: 'https://example.com/live2',
@@ -64,7 +64,7 @@ const projects = [
 
   {
     name: "Most-Post Storie's <br/> Gain+Glory",
-    description: 'Project 6 description',
+    description: '',
     image: { mobile: './images/portfolio-projects.png', desktop: './images/desk-porto.png' },
     technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     liveLink: 'https://example.com/live2',
@@ -141,7 +141,7 @@ projects.forEach((project) => {
             <div class='modal-footer desktop-flex'>
               <button class='button-live' id='live-button'>
                 See live
-                <span><i class='fa-thin fa-arrow-up-left-from-circle fa-rotate-90'></i></span>
+                <span><i class="fa-solid fa-square-arrow-up-right"></i></span>
               </button>
               <button class='button-source' id='source-button'>
                 See source
