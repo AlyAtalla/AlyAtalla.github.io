@@ -104,63 +104,53 @@ projects.forEach((project) => {
   // dynamic modal
   const displayPopup = (project) => {
     const dynamicSection = document.getElementById('dynamic-section');
-    const list = '';
-    project.technologies.map((technology) => `<li>${technology}</li>`);
+    let list = '';
+  
+    project.technologies.forEach((technology) => {
+      list += `<li>${technology}</li>`;
+    });
+  
     const sectionHTML = `
-<section id='modal-section' class='modal-section'>
-    <div class='modal'>
-      <div class='modal-content'>
-        <div class='modal-header'>
-          <button class='modal-close' type='button'>X</button>
-          <img
-          class="mobile-image"
-          src="${project.image.mobile}"
-          alt="modal-image"
-        />
-        <img
-          class="desktop-image"
-          src="${project.image.desktop}"
-          alt=""
-        />
+      <section id='modal-section' class='modal-section'>
+        <div class='modal'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button class='modal-close' type='button'>X</button>
+              <img class="mobile-image" src="${project.image.mobile}" alt="modal-image" />
+              <img class="desktop-image" src="${project.image.desktop}" alt="" />
+            </div>
+            <div class='modal-body'>
+              <h2>${project.name}</h2>
+              <div class='desktop-list'>
+                <ul id='desktop-components'>
+                  ${list}
+                </ul>
+              </div>
+              <p>${project.description}</p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it 1960s.
+              </p>
+            </div>
+            <div class='modal-footer desktop-flex'>
+              <button class='button-live' id='live-button'>
+                See live
+                <span><i class='fa-thin fa-arrow-up-left-from-circle fa-rotate-90'></i></span>
+              </button>
+              <button class='button-source' id='source-button'>
+                See source
+                <span><i class='fa-brands fa-github'></i></span>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class='modal-body'>
-          <h2>${project.name}</h2>
-          <div class='desktop-list'>
-            <ul id='desktop-componets'>
-            ${list}
-            </ul>
-          </div>
-          <p>
-            ${project.description}
-          </p>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it 1960s.
-          </p>
-          </div>
-        <div class='modal-footer desktop-flex'>
-          <button class='button-live' id='live-button'>
-            See live
-            <span
-              ><i
-                class='fa-thin fa-arrow-up-left-from-circle fa-rotate-90'
-              ></i
-            ></span>
-          </button>
-          <button class='button-source' id='source-button'>
-            See source <span><i class='fa-brands fa-github'></i></span>
-          </button>
-          </div>
-        
-      </div>
-    </div>
-    <div id='overlay'></div>
-  </section>
-  `;
+        <div id='overlay'></div>
+      </section>
+    `;
+  
     dynamicSection.innerHTML = sectionHTML;
-
+  
     const overlay = document.getElementById('overlay');
     const modalSection = document.querySelector('.modal');
     const modalCloseButton = document.querySelector('.modal-close');
@@ -168,7 +158,7 @@ projects.forEach((project) => {
       modalSection.style.display = 'none';
       overlay.style.display = 'none';
     });
-  };
+  };  
 
   const buttonElement = document.createElement('button');
   buttonElement.classList.add('project-button');
