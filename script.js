@@ -165,7 +165,14 @@ projects.forEach((project) => {
   `;
     dynamicSection.innerHTML = sectionHTML;
 
-    
+    const overlay = document.getElementById('overlay');
+    const modalSection = document.querySelector('.modal');
+    const modalCloseButton = document.querySelector('.modal-close');
+    modalCloseButton.addEventListener('click', () => {
+      modalSection.style.display = 'none';
+      overlay.style.display = 'none';
+    });
+  };
   const buttonElement = document.createElement('button');
   buttonElement.classList.add('project-button');
   buttonElement.textContent = 'See Project';
