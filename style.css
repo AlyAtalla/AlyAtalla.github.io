@@ -697,7 +697,6 @@ input::placeholder {
 }
 
 @media (min-width: 768px) {
-
   .modal-container {
     padding-left: 13px;
   }
