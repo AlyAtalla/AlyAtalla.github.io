@@ -267,7 +267,7 @@ ul {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .language {
@@ -275,7 +275,7 @@ ul {
   height: 32px;
   background: #ebf0ee;
   border-radius: 4px;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .main-text.contact-text {
@@ -589,7 +589,7 @@ input::placeholder {
   flex-direction: column;
   gap: 32px;
   padding: 10px;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   margin-top: 0;
 }
 
