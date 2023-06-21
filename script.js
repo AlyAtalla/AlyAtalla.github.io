@@ -186,7 +186,19 @@ const email = document.querySelector('#mail');
 const errorMsg = document.querySelector('.error-message');
 const msgTxt = 'please use lowercase letters only';
 
-
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    errorMsg.textContent = msgTxt;
+    errorMsg.style.color = 'red';
+    errorMsg.style.fontSize = '19px';
+    errorMsg.style.whiteSpace = 'nowrap';
+    email.style.border = '1px solid red';
+    e.preventDefault();
+  } else {
+    errorMsg.style.display = 'none';
+    email.style.border = '1px solid green';
+  }
+});
 
 document.addEventListener('DOMContentLoaded', () => {
   initApp();
