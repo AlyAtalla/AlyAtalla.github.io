@@ -181,6 +181,13 @@ projects.forEach((project) => {
   });
 });
 
+const form = document.querySelector('.form');
+const email = document.querySelector('#mail');
+const errorMsg = document.querySelector('.error-message');
+const msgTxt = 'please use lowercase letters only';
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
   initApp();
 });
