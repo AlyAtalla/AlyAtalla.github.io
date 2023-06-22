@@ -182,21 +182,46 @@ projects.forEach((project) => {
 });
 
 const form = document.querySelector('.form');
-const email = document.querySelector('#mail');
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#mail');
+const messageInput = document.querySelector('#msg');
 const errorMsg = document.querySelector('.error-message');
 const msgTxt = 'please use lowercase letters only';
 
+// Retrieve form data from local storage, if available
+const savedFormData = localStorage.getItem('formData');
+const formData = savedFormData ? JSON.parse(savedFormData) : {}; // Parse the stored data or create an empty object
+
+// Pre-fill input fields with stored data
+nameInput.value = formData.name || ''; // Pre-fill name field with stored value or an empty string
+emailInput.value = formData.email || ''; // Pre-fill email field with stored value or an empty string
+messageInput.value = formData.message || ''; // Pre-fill message field with stored value or an empty string
+
+// Save form data to local storage whenever input fields change
+form.addEventListener('input', () => {
+  formData.name = nameInput.value; // Update the name value in the formData object
+  formData.email = emailInput.value; // Update the email value in the formData object
+  formData.message = messageInput.value; // Update the message value in the formData object
+
+  // Save updated form data to local storage
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+// Form submit event listener
 form.addEventListener('submit', (e) => {
-  if (email.value !== email.value.toLowerCase()) {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
     errorMsg.textContent = msgTxt;
     errorMsg.style.color = 'red';
     errorMsg.style.fontSize = '19px';
     errorMsg.style.whiteSpace = 'nowrap';
-    email.style.border = '1px solid red';
+    emailInput.style.border = '1px solid red';
     e.preventDefault();
   } else {
     errorMsg.style.display = 'none';
-    email.style.border = '1px solid green';
+    emailInput.style.border = '1px solid green';
+
+    // Save form data to local storage
+    localStorage.setItem('formData', JSON.stringify(formData));
   }
 });
 
