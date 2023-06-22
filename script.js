@@ -181,7 +181,7 @@ const msgTxt = 'please use lowercase letters only';
 
 // Retrieve form data from local storage, if available
 const savedFormData = localStorage.getItem('formData');
-const formData = savedFormData ? JSON.parse(savedFormData) : {}; // Parse the stored data or create an empty object
+const formData = savedFormData ? JSON.parse(savedFormData) : {};
 
 // Pre-fill input fields with stored data
 nameInput.value = formData.name || ''; // Pre-fill name field with stored value or an empty string

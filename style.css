@@ -560,7 +560,7 @@ input::placeholder {
   height: 90vh;
   overflow-y: scroll;
   border-radius: 8px;
-  width: 650px; 
+  width: 650px;
 }
 
 .modal-close {
