@@ -61,15 +61,6 @@ const projects = [
     liveLink: 'https://example.com/live2',
     sourceLink: 'https://example.com/source2',
   },
-
-  {
-    name: "Most-Post Storie's <br/> Gain+Glory",
-    description: '',
-    image: { mobile: './images/portfolio-projects.png', desktop: './images/desk-porto.png' },
-    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-    liveLink: 'https://example.com/live2',
-    sourceLink: 'https://example.com/source2',
-  },
 ];
 
 const projectsContainer = document.querySelector('.cards');
