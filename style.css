@@ -545,7 +545,8 @@ input::placeholder {
 
 .modal-section {
   position: relative;
-  z-index: 2000;
+  z-index: 1800;
+  width: 650px;
 }
 
 .modal {
@@ -559,6 +560,7 @@ input::placeholder {
   height: 90vh;
   overflow-y: scroll;
   border-radius: 8px;
+  width: 650px;
 }
 
 .modal-close {
