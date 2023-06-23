@@ -212,7 +212,7 @@ form.addEventListener('submit', (e) => {
     emailInput.style.border = '1px solid green';
 
     // Save form data to local storage
-    localStorage.setItem('formData', JSON.stringify(formtData));
+    localStorage.setItem('formData', JSON.stringify(formData));
   }
 });
 
